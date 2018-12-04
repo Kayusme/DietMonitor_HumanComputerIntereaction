@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
     flag = 10
     while (flag > 0):
-        getFood = input("Please tell me what you have eat today or print 'OK' to finish.\n")
+        getFood = input("Please tell me what you have eat today(apple,pear,cherry,rice,noodles) or print 'OK' to finish.\n")
         if(getFood=="apple"):
             food[0] = food[0] + apple[0]
             food[1] = food[1] + apple[1]
